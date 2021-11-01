@@ -1,0 +1,24 @@
+{
+	"family": "mydemo",
+	"networkMode": "awsvpc",
+	"containerDefinitions": [
+		{
+		"name": "spring-boot",
+		"image": "public.ecr.aws/e2d0z1z4/demo:latest",
+		"portMappings": [
+			{
+			"containerPort": 8080,
+			"hostPort": 8080,
+			"protocol": "tcp"
+		}
+		],
+		"essential": true
+
+	}
+	],
+	"requiresCompatibilities": [
+		"FARGATE"
+	],
+	"cpu": "256",
+	"memory": "512"
+}

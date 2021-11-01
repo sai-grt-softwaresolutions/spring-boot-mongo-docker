@@ -4,7 +4,7 @@
 	"containerDefinitions": [
 		{
 		"name": "spring-boot",
-		"image": "public.ecr.aws/e2d0z1z4/demo:latest",
+		"image": " 620669233735.dkr.ecr.ap-south-1.amazonaws.com/sample:latest",
 		"portMappings": [
 			{
 			"containerPort": 8080,

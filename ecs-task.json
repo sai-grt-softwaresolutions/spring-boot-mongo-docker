@@ -4,7 +4,7 @@
 	"containerDefinitions": [
 		{
 		"name": "mydemo",
-		"image": " 620669233735.dkr.ecr.ap-south-1.amazonaws.com/sample:latest",
+		"image": "620669233735.dkr.ecr.ap-south-1.amazonaws.com/sample:latest",
 		"portMappings": [
 			{
 			"containerPort": 8080,

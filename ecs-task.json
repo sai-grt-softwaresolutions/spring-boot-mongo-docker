@@ -44,7 +44,7 @@
     "memory": "512",
     "cpu": "256",
     "executionRoleArn": "arn:aws:iam::620669233735:role/ecsTaskExecutionRole",
-    "family": "sampledemo",
+    "family": "second",
     "taskRoleArn": "arn:aws:iam::620669233735:role/ecsTaskExecutionRole",
     "runtimePlatform": {
         "operatingSystemFamily": "LINUX"

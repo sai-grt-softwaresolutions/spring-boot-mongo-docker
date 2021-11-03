@@ -20,7 +20,16 @@
 		"FARGATE"
 	],
 	"cpu": "256",
-	"memory": "512"
-	 "executionRoleArn": "arn:aws:iam::620669233735:role/ecsTaskExecutionRole",
+	"memory": "512",
+	"volumes": [],
+    "networkMode": "awsvpc",
+    "memory": "512",
+    "cpu": "256",
+    "executionRoleArn": "arn:aws:iam::620669233735:role/ecsTaskExecutionRole",
+    "family": "sampledemo",
     "taskRoleArn": "arn:aws:iam::620669233735:role/ecsTaskExecutionRole",
+    "runtimePlatform": {
+        "operatingSystemFamily": "LINUX"
+    },
+    "tags": []
 }

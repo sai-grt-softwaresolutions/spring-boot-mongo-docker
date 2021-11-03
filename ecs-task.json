@@ -1,35 +1,26 @@
 {
 	"family": "second",
 	"networkMode": "awsvpc",
-	"containerDefinitions": [
-		{
+	"containerDefinitions": [{
 		"name": "myapp",
 		"image": "620669233735.dkr.ecr.ap-south-1.amazonaws.com/sample:latest",
-		"portMappings": [
-			{
+		"portMappings": [{
 			"containerPort": 8080,
 			"hostPort": 8080,
 			"protocol": "tcp"
-		}
-		],
+		}],
 		"essential": true
 
-	}
-	],
+	}],
 	"requiresCompatibilities": [
 		"FARGATE"
 	],
 	"cpu": "256",
 	"memory": "512",
 	"volumes": [],
-    "networkMode": "awsvpc",
-    "memory": "512",
-    "cpu": "256",
-    "executionRoleArn": "arn:aws:iam::620669233735:role/ecsTaskExecutionRole",
-    "family": "sampledemo",
-    "taskRoleArn": "arn:aws:iam::620669233735:role/ecsTaskExecutionRole",
-    "runtimePlatform": {
-        "operatingSystemFamily": "LINUX"
-    },
-    "tags": []
-}
+	"executionRoleArn": "arn:aws:iam::620669233735:role/ecsTaskExecutionRole",
+	"taskRoleArn": "arn:aws:iam::620669233735:role/ecsTaskExecutionRole",
+	"runtimePlatform": {
+		"operatingSystemFamily": "LINUX"
+	},
+	"tags": []

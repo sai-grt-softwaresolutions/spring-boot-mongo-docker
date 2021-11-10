@@ -1,5 +1,5 @@
 {
-	"family": "demo",
+	"family": "hello",
 	"networkMode": "awsvpc",
 	"containerDefinitions": [
 		{

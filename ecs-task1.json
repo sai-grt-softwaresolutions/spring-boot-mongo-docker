@@ -4,7 +4,7 @@
 	"containerDefinitions": [
 		{
 		"name": "myapp",
-		"image": "public.ecr.aws/x9x4f1r6/sai:${BUILD_NUMBER}",
+		"image": "public.ecr.aws/x9x4f1r6/sai:latest",
 		"portMappings": [
 			{
 			"containerPort": 8080,
